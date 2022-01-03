@@ -12,6 +12,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -36,4 +37,19 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream{
+   background-image: url(images/dream-bg.png);
+   background-repeat: no-repeat;
+   background-position: right;
+}
+.resume-btn{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(to left,#FF6C4E, #FF9571);
+    color: #fff;
+    font-weight: 600px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    transition: 0.5s;
 }
