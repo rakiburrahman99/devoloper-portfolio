@@ -1,0 +1,39 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 60px;
+    letter-spacing: 3px;
+}
+
+.orange{
+    color: #FFA500;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+.hire-btn{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(to left,#FF6C4E, #FF9571);
+    color: #fff;
+    font-weight: 600px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+.hire-btn:hover{
+    background-image: linear-gradient(to right,#FF6C4E, #FF9571);
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
